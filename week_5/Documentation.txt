@@ -1,0 +1,34 @@
+Week 5 - Student Information System
+Documentation
+
+1. Why are the variables declared as private?
+
+The variables (studentID, name, cgpa, programme) are declared as private so
+that they cannot be accessed or changed directly from outside the Student
+class. This is the OOP principle of encapsulation - it protects the data by
+forcing other classes to go through controlled methods (getters and
+setters) instead of modifying the fields directly. This keeps the
+student's information secure and lets the class validate or control how
+the data is changed.
+
+2. What happens if the variables are declared public?
+
+If the variables were declared public, any other class could access and
+modify them directly (e.g. student.studentID = "..."), without going
+through the Student class's own logic. This breaks encapsulation, removes
+control over how the data is set, and makes it easy to accidentally put
+invalid or inconsistent data into an object. It also makes the code harder
+to maintain, since any class anywhere in the program could change the
+values with no restrictions.
+
+3. Why do we use getters and setters?
+
+Getters and setters give controlled access to private variables.
+- Setters allow the class to validate data before it is stored (for
+  example, checking that a CGPA is within a valid range) and control how
+  a value is updated.
+- Getters allow other classes to safely read a value without being able
+  to change it directly.
+Using getters and setters keeps the internal implementation of the class
+hidden (encapsulated) while still allowing controlled, safe interaction
+with the object's data from outside the class.
