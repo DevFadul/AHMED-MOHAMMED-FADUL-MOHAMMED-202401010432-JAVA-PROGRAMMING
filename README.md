@@ -82,11 +82,11 @@ AHMED-MOHAMMED-FADUL-MOHAMMED-202401010432-JAVA-PROGRAMMING/
 | **Week 8–9** | Applied OOP Task | A consolidated task applying the OOP concepts learned so far (classes, inheritance, encapsulation, abstraction) to a practical exercise. |
 | **Week 10** | GUI Programming (Java Swing) | Building an interactive **Quiz Battle** application using `javax.swing` and `java.awt`, with `QuizBattleGUI` extending `JFrame` and a supporting `Questions` class — integrating OOP design with event-driven GUI programming. |
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Java (JDK)** – Core programming language
 - **Java Swing / AWT** – Graphical User Interface development (Week 10)
 - **Git & GitHub** – Version control and repository management
-- **Command Line / IDE** (e.g. VS Code, IntelliJ IDEA, or NetBeans) – Writing, compiling, and running Java programs
+- **Command Line / IDE** (Github Codespace, VScode & bash terminal) – Writing, compiling, and running Java programs
 
 ## How to Run the Projects
 1. **Clone the repository**
