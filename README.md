@@ -100,7 +100,7 @@ AHMED-MOHAMMED-FADUL-MOHAMMED-202401010432-JAVA-PROGRAMMING/
    ```
 3. **Compile the Java file(s)**
    ```bash
-   javac *.java
+   java *filename*
    ```
 4. **Run the program** (replace `ClassName` with the file containing the `main` method, e.g. `Hello`, `StudentGrade`, `Main`, or `QuizBattleGUI`)
    ```bash
